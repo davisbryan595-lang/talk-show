@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const episodes = [
-  { id: 1, title: "The Future of Work", guest: "Sarah Chen", date: "Dec 14, 2024", image: "/talk-show-episode.jpg" },
-  { id: 2, title: "Mental Health Matters", guest: "Dr. James Wilson", date: "Dec 7, 2024", image: "/talk-show-episode.jpg" },
-  { id: 3, title: "Climate Action Now", guest: "Emma Rodriguez", date: "Nov 30, 2024", image: "/talk-show-episode.jpg" },
-  { id: 4, title: "Tech Innovation", guest: "Marcus Liu", date: "Nov 23, 2024", image: "/talk-show-episode.jpg" },
+  { id: 1, title: "The Future of Work", guest: "Sarah Chen", date: "Dec 14, 2024", image: "/talkshow/IMG-20251119-WA0130.jpg" },
+  { id: 2, title: "Mental Health Matters", guest: "Dr. James Wilson", date: "Dec 7, 2024", image: "/talkshow/IMG-20251119-WA0131.jpg" },
+  { id: 3, title: "Climate Action Now", guest: "Emma Rodriguez", date: "Nov 30, 2024", image: "/talkshow/IMG-20251119-WA0132.jpg" },
+  { id: 4, title: "Tech Innovation", guest: "Marcus Liu", date: "Nov 23, 2024", image: "/talkshow/IMG-20251119-WA0133.jpg" },
 ]
 
 export default function EpisodesCarousel() {
